@@ -80,7 +80,7 @@ export default function WebDesignDevelopment() {
           <div key={testimonial.id} className="p-6">
             <div className="relative bg-gray-800 rounded-lg shadow-lg p-6">
               <div className="absolute top-[-20px] left-10 w-6 h-6 bg-gray-800 rotate-45"></div>
-              <p className="text-gray-300 italic">"{testimonial.comment}"</p>
+              <p className="text-gray-300 italic">`{testimonial.comment}`</p>
             </div>
             <div className="flex items-center mt-4">
               <img

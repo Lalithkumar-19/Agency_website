@@ -1,4 +1,3 @@
-import React from "react";
 
 const ContactPage = () => {
   return (
@@ -39,7 +38,7 @@ const ContactPage = () => {
           </div>
           <div className="mt-6 flex items-center">
             <input type="checkbox" id="captcha" className="mr-2" required />
-            <label htmlFor="captcha" className="text-gray-400">I'm agreeing to share i</label>
+            <label htmlFor="captcha" className="text-gray-400">I am agreeing to share i</label>
           </div>
           <button className="mt-6 w-full bg-yellow-500 text-black font-bold py-3 rounded-lg hover:bg-yellow-400 transition">
             SUBMIT

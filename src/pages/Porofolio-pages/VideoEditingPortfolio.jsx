@@ -1,4 +1,3 @@
-import React from 'react';
 import {Star } from 'lucide-react';
 import { motion } from 'framer-motion';
 import { InstagramEmbed } from 'react-social-media-embed';
@@ -81,7 +80,7 @@ const VideoEditingPortfolio = () => {
               whileInView={{ opacity: 1, scale: 1 }}
               transition={{ duration: 0.5 }}
             >
-              <p className="relative text-gray-300 italic">"Exceptional video editing services that brought our vision to life!"</p>
+              <p className="relative text-gray-300 italic"> `{"Exceptional video editing services that brought our vision to life!"}`</p>
               <div className="flex items-center justify-center mt-4">
                 <Star className="text-yellow-400" />
                 <Star className="text-yellow-400" />
@@ -98,7 +97,7 @@ const VideoEditingPortfolio = () => {
       {/* Call to Action */}
       <div className="relative mt-16 text-center z-30">
         <h2 className="text-3xl font-bold">Ready to Transform Your Videos?</h2>
-        <p className="text-gray-400 mt-2">Let's create stunning visuals together. Get in touch today!</p>
+        <p className="text-gray-400 mt-2">Lets create stunning visuals together. Get in touch today!</p>
         <button className="mt-6 bg-yellow-400 text-black px-6 py-3 rounded font-bold hover:bg-white transition-all duration-300">Get a Free Consultation</button>
       </div>
     </div>

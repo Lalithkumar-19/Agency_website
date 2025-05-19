@@ -1,4 +1,3 @@
-import React from 'react'
 import HeroSection from '../components/ServicesPage/HeroSection'
 import BrandingStrategy from '../components/ServicesPage/BrandingStratergy'
 import VideoEditing from '../components/ServicesPage/VideoEditing'
