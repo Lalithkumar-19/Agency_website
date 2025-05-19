@@ -4,7 +4,7 @@ import HeroSlider from './HeroSlider';
 
 const Hero = () => {
   return (
-    <div className="relative h-screen w-full flex flex-col items-center justify-center text-center px-4 -mt-16 overflow-hidden">
+    <div className="relative h-screen w-full flex flex-col items-center justify-center text-center px-4  overflow-hidden">
       {/* Background Video */}
       <div className="absolute inset-0 w-full h-full overflow-hidden">
         <video className="w-full h-full object-cover" autoPlay loop muted>

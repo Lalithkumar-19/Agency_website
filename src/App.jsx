@@ -11,7 +11,7 @@ import ContactPage from './pages/ContactPage'
 
 const App = () => {
   return (
-    <div>
+    <div className='overflow-hidden'>
       <BrowserRouter>
       <Navbar/> 
        <Routes>

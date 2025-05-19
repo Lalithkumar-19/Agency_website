@@ -10,7 +10,7 @@ import WhyChooseUs from "../components/HomePage/ WhyChooseUs";
 
 const Home=()=>{
   return (
-    <div className="bg-black  text-white  min-h-screen">
+    <div className="bg-black  text-white  min-h-screen -mt-20">
       <Hero/>
       <Combos/>
       <OurServices/>
